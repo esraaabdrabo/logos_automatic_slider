@@ -14,8 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ScreenUtilInit(
-        builder: (_, __) =>
-            const MaterialApp(home: HomeScreen()));
+        builder: (_, __) => const MaterialApp(home: HomeScreen()));
   }
 }
 
@@ -32,7 +31,7 @@ class HomeScreen extends StatelessWidget {
         padding: const EdgeInsets.symmetric(vertical: 30),
         separatorBuilder: (context, index) =>
             const Padding(padding: EdgeInsets.symmetric(vertical: 10)),
-        itemCount: 5,
+        itemCount: 10,
         itemBuilder: (_, index) => const _Slider(),
       ),
     );
@@ -57,7 +56,7 @@ class _Slider extends StatelessWidget {
               pauseAutoPlayOnTouch: true,
               scrollPhysics: const ScrollPhysics(),
               disableCenter: true,
-              viewportFraction: .3,
+              viewportFraction: .25,
             ),
             items: List.generate(
                 6,
