@@ -1,16 +1,17 @@
-# logos_automatic_slider
+# Flutter Carousel Project
 
-A new Flutter project.
+A simple Flutter project showcasing a carousel of images using the `carousel_slider` package.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+This Flutter project demonstrates how to create a basic carousel of images using the popular `carousel_slider` package. The carousel moves in an infinite loop, allowing users to view different images smoothly.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Image Carousel:** Utilizes the `carousel_slider` package to create a dynamic carousel of images.
+- **Infinite Loop:** The carousel seamlessly moves in an infinite loop, ensuring a continuous display of images.
+
+## Video
+https://github.com/esraaabdrabo/logos_automatic_slider/assets/91227030/3c01639f-8c71-4b4e-9cef-90d27447d9e8
+
